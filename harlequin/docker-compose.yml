@@ -1,0 +1,6 @@
+version: '3'
+services:
+  harlequin:
+    container_name: harlequin
+    build: .
+    command: sleep infinity
