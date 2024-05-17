@@ -1,0 +1,9 @@
+[profiles.local-mysql]
+theme = "fruity"
+limit = 100000
+adapter = "mysql"
+host = "localhost"
+user = "postgres"
+password = "secretadminpassword"
+dbname = "dbname"
+port = 3306

@@ -4,3 +4,5 @@ services:
     container_name: harlequin
     build: .
     restart: unless-stopped
+    volumes:
+      - ./config:/config
